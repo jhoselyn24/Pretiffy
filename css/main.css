@@ -1,0 +1,127 @@
+/* Inserta tu CSS aqui */
+.container{
+	width: 960px;
+	margin: auto;
+}
+
+header{
+	text-align: center;
+	margin-top: 50px;
+	border-bottom: 1px solid black;
+	padding-bottom: 30px;
+}
+nav{
+	margin-left: 70px;
+}
+header a{
+	text-decoration: none;
+	color: black;
+	font-family: 'Oswald';
+	font-weight: bold;
+	margin-right: 50px;
+
+
+}
+header a:hover{
+	text-decoration: none;
+	color: white;
+	font-family: 'Oswald';
+	font-weight: bold;
+	padding: 15px;
+	background-color: silver;
+	
+
+}
+section{
+	background-image: url('../images/background.jpg');
+	background-repeat: no-repeat;
+	font-size: 100%;
+	
+}
+.content{
+	padding-top: 80px;
+	text-align: center;
+	padding-bottom: 10%;
+
+}
+.titulo{
+	color: white;
+	padding: 10px;
+
+}
+h1{
+	font-size: 50px;
+	font-family: 'Oswald';
+}
+h4{
+	font-size: 30px;
+	font-family: 'Oswald';
+	margin-top: 20px;
+	font-weight: normal;
+}
+article{
+	background-image: url('../images/tile1.png');
+}
+article .container{
+	padding: 30px;
+}
+.container h1{
+	color: #8E00E1;
+	text-align: center;
+	font-size: 30px;
+	margin-top: 50px;
+}
+article img{
+	padding: 5px;
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+	margin-top: 50px;
+}
+article p{
+	margin-top: 50px;
+	font-family: arial;
+	font-size: 15px;
+
+}
+.foto_cat{
+	padding-bottom: 30px;
+}
+.foto_cat h4{
+    color: #8E00E1;
+    font-size: 20px;
+    text-align: center;
+}
+.foto_cat .col-3 img{
+	width: 180px;
+	height: 180px;
+	border: 1px solid #8E00E1;
+	padding: 5px;
+	border-radius: 100%;
+	margin-right:-10px;
+	margin-top: 20px;
+
+}
+.contenedor_div{
+	padding-left: 70px;
+	padding-right: 70px;
+
+}
+footer{
+	background-image: url('../images/tile2.png');
+	text-align: center;
+	padding: 50px;
+}
+footer h1{
+	color: #8E00E1;
+	font-size: 30px;
+	
+}
+footer div{
+	text-align: center;
+	margin-top: 30px;
+
+}
+footer img{
+	margin: 10px;
+}
